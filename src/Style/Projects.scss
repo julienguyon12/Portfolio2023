@@ -1,0 +1,44 @@
+@mixin devices($breakpoint) {
+  //the name of the mixin is devices
+  @if $breakpoint == laptop {
+    @media only screen and (min-width: 1000px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    @media only screen and (max-width: 1000px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == mobile {
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
+  }
+}
+.projects {
+  margin-top: 100px;
+  h2 {
+    padding-top: 30px;
+    font-size: var(--font-size-1);
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .wrap {
+    display: flex;
+    justify-content: center;
+    button {
+      margin: 20px;
+      background-color: transparent;
+      border: none;
+    }
+  }
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,33 @@
+.CardSkill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+  border: solid 1px var(--color-9);
+  border-radius: 0 60px 0 0;
+
+  h3 {
+    margin: 10px 0;
+    font-size: var(--font-size-3);
+    font-weight: 900;
+  }
+  p {
+    line-height: var(--spacing-4);
+    font-size: var(--font-size-5);
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    color: var(--color-7);
+  }
+  .wrap {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    .item {
+      width: 40px;
+    }
+  }
+}

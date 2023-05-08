@@ -1,0 +1,107 @@
+@mixin devices($breakpoint) {
+  //the name of the mixin is devices
+  @if $breakpoint == laptop {
+    @media only screen and (min-width: 1000px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    @media only screen and (max-width: 1000px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == mobile {
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
+  }
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  z-index: 1;
+  .toggleButton {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    svg {
+      font-size: 50px;
+    }
+    button {
+      margin-right: 20px;
+      background-color: transparent;
+      border: none;
+      color: var(--color-1);
+      cursor: pointer;
+    }
+  }
+  .links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: var(--color-1);
+    margin-top: 0;
+    button {
+      background-color: transparent;
+      border: none;
+    }
+  }
+}
+
+@include devices(laptop) {
+  .navbar .toggleButton {
+    display: none;
+  }
+}
+@include devices(tablet) {
+  .navbar {
+    .toggleButton {
+      display: none;
+    }
+    .hiddenLinks {
+      display: none;
+    }
+  }
+  #open {
+    height: 100px;
+    .links {
+      flex-direction: row;
+    }
+  }
+}
+
+@include devices(mobile) {
+  .navbar {
+    background-color: var(--color-3);
+    .toggleButton {
+      display: flex;
+    }
+  }
+  #open {
+    height: 100vh;
+    .toggleButton {
+      display: flex;
+    }
+    .light {
+      width: 100%;
+      text-align: center;
+      color: white;
+    }
+    .links {
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-top: 100px;
+    }
+  }
+  #close .light {
+    display: none;
+  }
+}

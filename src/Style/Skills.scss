@@ -1,0 +1,25 @@
+.skills {
+  position: relative;
+  padding: 20px;
+
+  h2 {
+    padding-top: 10px;
+    font-size: var(--font-size-1);
+    text-align: center;
+    text-transform: uppercase;
+  }
+  h4 {
+    font-size: var(--font-size-3);
+    color: var(--color-8);
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-top: 60px;
+  }
+}

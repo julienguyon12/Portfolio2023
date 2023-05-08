@@ -1,0 +1,16 @@
+.experience {
+  margin-top: 100px;
+  h2 {
+    padding: 40px 0;
+    font-size: var(--font-size-1);
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .vertical {
+    display: flex;
+    align-items: center;
+    .vertical-timeline-element-subtitle {
+      color: var(--color-7);
+    }
+  }
+}
