@@ -3,7 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import '../Style/Hero.scss';
-import me from '../Assets/julien-git.png';
+import me from '../Assets/julien-git1.png';
 
 const Hero = ({ contactRef }) => {
   return (
@@ -13,8 +13,10 @@ const Hero = ({ contactRef }) => {
           <h2>Julien Guyon</h2>
           <div className='prompt'>
             <p>
-              Ingénieur ICAM en reconversion autodidacte dans le développement
-              front-end.
+              <span>Ingénieur </span> ICAM
+              <br />
+              développeur
+              <span> front-end</span>
             </p>
             <a
               href='https://github.com/julienguyon12'
