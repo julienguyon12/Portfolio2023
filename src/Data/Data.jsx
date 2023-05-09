@@ -22,21 +22,21 @@ import projet from '../Assets/projet.svg';
 export const projectList = [
   {
     id: 0,
-    name: "Mon P'tit Surf Shop",
-    image: MPSS,
-    skills: 'React, Redux, Strapi, PostgreSQL, HTML, SCSS',
-    url: 'https://monpetitsurfshop.onrender.com/',
-    urlGit: 'https://github.com/julienguyon12/MonPetitSurfShop',
-    type: 'Front-end Back-end',
-  },
-  {
-    id: 1,
     name: 'Mon cv',
     image: CV,
     skills: 'React, CSS, Html',
     url: 'https://cv-julien-guyon.netlify.app/',
     urlGit: 'https://github.com/julienguyon12/CV-Julien-Guyon-react',
     type: 'Front-end',
+  },
+  {
+    id: 1,
+    name: "Mon P'tit Surf Shop",
+    image: MPSS,
+    skills: 'React, Redux, Strapi, PostgreSQL, HTML, SCSS',
+    url: 'https://monpetitsurfshop.onrender.com/',
+    urlGit: 'https://github.com/julienguyon12/MonPetitSurfShop',
+    type: 'Front-end Back-end',
   },
   {
     id: 2,

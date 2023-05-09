@@ -24,28 +24,47 @@ const Experiences = forwardRef((props, ref) => {
             <h3 className='vertical-timeline-element-title'>
               Formation développeur web
             </h3>
-            <p>Autodidacte</p>
+            <ul>
+              <li>Formation autodidacte en développement web </li>
+              <li>Technologies maîtrisées : React, JavaScript, HTML et CSS </li>
+              <li>
+                Acquis de compétences pratiques en développement front-end
+              </li>
+              <li>
+                Suivi de cours en ligne, lecture de documentations techniques et
+                travaux sur des projets personnels
+              </li>
+              <li>
+                Maîtrise des compétences nécessaires pour concevoir, développer
+                et maintenir des applications web de haute qualité.
+              </li>
+            </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className='vertcal-timeline-element--education'
-            date='Novembre 2021 - Juin 2023'
+            date='Avril 2021 - Juin 2023'
             iconStyle={{ background: '#33FF80', color: '#fff' }}
             icon={<ExploreIcon />}
           >
             <h3 className='vertical-timeline-element-title'>Voyage Surf</h3>
-            <p>Voyage seul en sac à dos en Amerique latine et Asie.</p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className='vertcal-timeline-element--work'
-            date='Mai 2021 - Octobre 2021'
-            iconStyle={{ background: '#e9d35b', color: '#fff' }}
-            icon={<WorkIcon />}
-          >
-            <h3 className='vertical-timeline-element-title'>
-              Technicien de maintenance - Etablissement St-Joseph CDD
-            </h3>
-            <h4 className='vertical-timeline-element-subtitle'>Toulouse</h4>
-            <p>Maintenance de l'établissement: électricité, menuiserie ...</p>
+            <ul>
+              <li>
+                Voyage en solo de 1 an et demi en Amérique du Sud et en Asie
+              </li>
+              <li>
+                Objectifs : découvrir de nouvelles cultures, élargir mes
+                horizons et relever des défis personnels
+              </li>
+              <li>
+                Développement de compétences en autonomie et en adaptation à des
+                environnements différents
+              </li>
+              <li>
+                Perfectionnement des compétences linguistiques en apprenant
+                l'espagnol et en pratiquant l'anglais dans des contextes réels
+              </li>
+              <li>Apprentissage du code de manière autodidacte</li>
+            </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className='vertcal-timeline-element--work'

@@ -50,7 +50,7 @@ const Contact = forwardRef((props, ref) => {
             ></input>
             <input
               type='email'
-              placeholder='abcd@xyz.com'
+              placeholder='NomPrenom@exemple.com'
               name='email'
               id='email'
               required
