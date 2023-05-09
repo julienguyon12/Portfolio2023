@@ -77,12 +77,29 @@ const Experiences = forwardRef((props, ref) => {
             </h3>
             <h4 className='vertical-timeline-element-subtitle'>Landes</h4>
             <ul>
-              <li>Réalisation de devis </li>
-              <li>Prospection commerciale </li>
-              <li>Négociation</li>
-              <li>Dessins, optimisation et planning de chantiers</li>
+              <li>Prospection de nouveaux clients</li>
+              <li>Réalisation et négociation de devis </li>
+              <li>Conception de plans et de documents de chantier</li>
+              <li>
+                Gestion de la planification et du suivi de l'avancement des
+                chantiers pour assurer leur bonne réalisation
+              </li>
               <li>Management de 1 ou 2 équipes </li>
-              <li>Gestion financière de projets (650k€/an ) </li>
+              <li>
+                Gestion de l'aspect financier, y compris la gestion des coûts,
+                le suivi des budgets et la facturation (650k€/an )
+              </li>
+              <li>
+                Communication régulière avec les différents intervenants pour
+                assurer la réussite des projets
+              </li>
+              <li>
+                Ces compétences témoignent de ma capacité à gérer efficacement
+                les chantiers de travaux publics, à négocier des contrats, à
+                concevoir des plans, à planifier les travaux et à communiquer
+                avec les différents intervenants pour assurer la réussite des
+                projets
+              </li>
             </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -98,12 +115,38 @@ const Experiences = forwardRef((props, ref) => {
               Mont de Marsan
             </h4>
             <ul>
-              <li>Optimisation de chantiers et planning </li>
-              <li>Gestion financiere de projets (2M€/an ) </li>
-              <li>Realisation de devis </li>
-              <li>Management de 3 ou 4 chef de chantiers </li>
-              <li>Relation client </li>
-              <li>Négociation</li>
+              <li>
+                Gestion des chantiers : planification, achat de matériaux, suivi
+                de l'avancement des travaux et respect des normes de sécurité
+              </li>
+              <li>
+                Réalisation de plannings et de contre-études de coûts pour les
+                projets
+              </li>
+              <li>Management de 3 ou 4 équipes </li>
+              <li>
+                Communication régulière avec les différents intervenants pour
+                s'assurer que les projets sont réalisés conformément aux
+                spécifications et aux exigences
+              </li>
+              <li>Négociation et réalisation de devis suplémentaires</li>
+              <li>
+                Dessin de plans et réalisation de documents de chantier tels que
+                les rapports de suivi et les ordres de travail
+              </li>
+              <li>
+                Utilisation de logiciels de gestion de projet pour suivre
+                l'avancement des travaux et la conformité aux budgets prévus
+              </li>
+              <li>
+                Gestion de l'aspect financier, y compris la gestion des coûts,
+                le suivi des budgets et la facturation (2M€/an )
+              </li>
+              <li>
+                Ces compétences témoignent de ma capacité à gérer efficacement
+                les chantiers de travaux publics et à communiquer avec les
+                différents intervenants pour assurer la réussite des projets
+              </li>
             </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -119,9 +162,22 @@ const Experiences = forwardRef((props, ref) => {
               Bordeaux/Angouleme
             </h4>
             <ul>
-              <li>Optimisation de chantiers et planning </li>
-              <li>Management de 1 ou 2 équipes d'ouvriers </li>
-              <li>Garant technique du chantier</li>
+              <li>Supervision et coordination des activités de construction</li>
+              <li>
+                Gestion des travailleurs (1 ou 2 équipes d'ouvriers), des
+                sous-traitants et de la sécurité sur les chantiers
+              </li>
+              <li>
+                Coordination avec les différents intervenants pour assurer la
+                qualité et le respect des délais des projets
+              </li>
+              <li>
+                Résolution de problèmes et prise de décisions en temps réel
+              </li>
+              <li>
+                Compétences en gestion d'équipe, en travail sous pression et en
+                résolution de problèmes.
+              </li>
             </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -135,9 +191,22 @@ const Experiences = forwardRef((props, ref) => {
             </h3>
             <h4 className='vertical-timeline-element-subtitle'>Périgueux</h4>
             <ul>
-              <li>Dessins et optimisation de chantiers (mensura) </li>
-              <li>Etude de prix et chiffrage </li>
-              <li>Réponse d'appel d'offres </li>
+              <li>
+                Dessin de plans et d'organigrammes pour les projets de
+                construction
+              </li>
+              <li>
+                Estimation des coûts de construction et élaboration de budgets
+                prévisionnels pour les projets
+              </li>
+              <li>
+                Réponse aux appels d'offres pour les projets de construction, y
+                compris la préparation de propositions et de devis
+              </li>
+              <li>
+                Analyse des plans et des devis pour s'assurer que les projets
+                répondent aux normes de construction et de sécurité
+              </li>
             </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -151,8 +220,14 @@ const Experiences = forwardRef((props, ref) => {
             </h3>
             <h4 className='vertical-timeline-element-subtitle'>Toulouse</h4>
             <ul>
-              <li>Dessins de projets (mensura) </li>
-              <li>Optimisation de projets </li>
+              <li>
+                Dessin de plans et d'organigrammes pour les projets de
+                construction
+              </li>
+              <li>
+                Estimation des coûts de construction et élaboration de budgets
+                prévisionnels pour les projets
+              </li>
             </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
